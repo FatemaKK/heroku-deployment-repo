@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (_, response) => {
-  response.send("Hello!");
+  response.send("RAAWWWRRRR");
 });
 
 app.get("/dinos", (_, response) => {
